@@ -16,11 +16,9 @@ namespace ContactTrace
         public Form1()
         {
             InitializeComponent();
-
-         
         }
 
-        string fName, lName, yearsOld, mobNum;
+        string fName, lName, yearsOld, mobNum, nationality;
 
         private void firstName_TextChanged(object sender, EventArgs e)
         {
@@ -36,6 +34,11 @@ namespace ContactTrace
             lName = lastName.Text;
         }
 
+        private void ntnltyTbx_TextChanged(object sender, EventArgs e)
+        {
+            nationality = ntnltyTbx.Text;
+        }
+
         private void age_TextChanged(object sender, EventArgs e)
         {
             yearsOld = age.Text;
@@ -49,7 +52,22 @@ namespace ContactTrace
         {
             StreamWriter outputFile;
 
-            outputFile = File.AppendText("");
+            outputFile = File.AppendText("Contacts.txt");
+
+            outputFile.WriteLine("|First Name|          |Last Name|         |Age|           |Nationality|           |Mobile Number|");
+            outputFile.WriteLine("");
+            outputFile.WriteLine($"{fName}              {lName}             {yearsOld}           {nationality}           {mobNum}");
+            outputFile.WriteLine("");
+            outputFile.WriteLine("=====================================================================================================================================");
+            outputFile.Close();
+            
+            
+
+            firstName.Text = "";
+            lastName.Text = "";
+            age.Text = "";
+            ntnltyTbx.Text = "";
+            phoneNum.Text = "";
         }
     }
 }

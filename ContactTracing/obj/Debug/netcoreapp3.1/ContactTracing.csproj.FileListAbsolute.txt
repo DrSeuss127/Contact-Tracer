@@ -1,0 +1,16 @@
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\bin\Debug\netcoreapp3.1\ContactTracing.exe
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\bin\Debug\netcoreapp3.1\ContactTracing.deps.json
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\bin\Debug\netcoreapp3.1\ContactTracing.runtimeconfig.json
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\bin\Debug\netcoreapp3.1\ContactTracing.runtimeconfig.dev.json
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\bin\Debug\netcoreapp3.1\ContactTracing.dll
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\bin\Debug\netcoreapp3.1\ContactTracing.pdb
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.csproj.AssemblyReference.cache
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.Form1.resources
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.csproj.GenerateResource.cache
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.AssemblyInfoInputs.cache
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.AssemblyInfo.cs
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.csproj.CoreCompileInputs.cache
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.dll
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.pdb
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.genruntimeconfig.cache
+C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.Form2.resources

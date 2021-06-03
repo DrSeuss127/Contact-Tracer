@@ -14,3 +14,19 @@ C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.
 C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.pdb
 C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.genruntimeconfig.cache
 C:\Users\clint\source\repos\ContactTracing\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.Form2.resources
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\bin\Debug\netcoreapp3.1\ContactTracing.exe
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\bin\Debug\netcoreapp3.1\ContactTracing.deps.json
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\bin\Debug\netcoreapp3.1\ContactTracing.runtimeconfig.json
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\bin\Debug\netcoreapp3.1\ContactTracing.runtimeconfig.dev.json
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\bin\Debug\netcoreapp3.1\ContactTracing.dll
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\bin\Debug\netcoreapp3.1\ContactTracing.pdb
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.csproj.AssemblyReference.cache
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.Form1.resources
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.Form2.resources
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.csproj.GenerateResource.cache
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.AssemblyInfoInputs.cache
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.AssemblyInfo.cs
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.csproj.CoreCompileInputs.cache
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.dll
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.pdb
+E:\Clint's Files\College\PUP\BSCOE 1st Year\Second Semester\Object-Oriented Programming\C# Repos and Projects\Contact Tracing App\Contact-Tracer\ContactTracing\obj\Debug\netcoreapp3.1\ContactTracing.genruntimeconfig.cache

@@ -209,7 +209,7 @@ namespace ContactTracing
             // 
             // submitBtn
             // 
-            this.submitBtn.BackColor = System.Drawing.Color.Bisque;
+            this.submitBtn.BackColor = System.Drawing.Color.White;
             this.submitBtn.FlatAppearance.BorderSize = 0;
             this.submitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.submitBtn.Font = new System.Drawing.Font("ISOCPEUR", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -223,7 +223,7 @@ namespace ContactTracing
             // 
             // viewDataBtn
             // 
-            this.viewDataBtn.BackColor = System.Drawing.Color.Bisque;
+            this.viewDataBtn.BackColor = System.Drawing.Color.White;
             this.viewDataBtn.FlatAppearance.BorderSize = 0;
             this.viewDataBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.viewDataBtn.Font = new System.Drawing.Font("ISOCPEUR", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -285,7 +285,7 @@ namespace ContactTracing
         private System.Windows.Forms.TextBox inputEmail;
         private System.Windows.Forms.Label gmailLbl;
         private System.Windows.Forms.Button submitBtn;
-        private System.Windows.Forms.Button viewDataBtn;
+        public System.Windows.Forms.Button viewDataBtn;
     }
 }
 

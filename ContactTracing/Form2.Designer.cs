@@ -36,7 +36,7 @@ namespace ContactTracing
             // 
             // refreshBtn
             // 
-            this.refreshBtn.BackColor = System.Drawing.Color.Bisque;
+            this.refreshBtn.BackColor = System.Drawing.Color.White;
             this.refreshBtn.FlatAppearance.BorderSize = 0;
             this.refreshBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.refreshBtn.Font = new System.Drawing.Font("ISOCPEUR", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -50,7 +50,7 @@ namespace ContactTracing
             // 
             // clrDataBtn
             // 
-            this.clrDataBtn.BackColor = System.Drawing.Color.Bisque;
+            this.clrDataBtn.BackColor = System.Drawing.Color.White;
             this.clrDataBtn.FlatAppearance.BorderSize = 0;
             this.clrDataBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.clrDataBtn.Font = new System.Drawing.Font("ISOCPEUR", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -70,6 +70,7 @@ namespace ContactTracing
             this.contactsDisplay.Size = new System.Drawing.Size(649, 430);
             this.contactsDisplay.TabIndex = 2;
             this.contactsDisplay.Text = "";
+            this.contactsDisplay.TextChanged += new System.EventHandler(this.contactsDisplay_TextChanged);
             // 
             // Form2
             // 
@@ -80,10 +81,12 @@ namespace ContactTracing
             this.Controls.Add(this.contactsDisplay);
             this.Controls.Add(this.clrDataBtn);
             this.Controls.Add(this.refreshBtn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form2";
             this.ShowIcon = false;
             this.Text = "Contacts";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_Closed);
             this.ResumeLayout(false);
 
         }

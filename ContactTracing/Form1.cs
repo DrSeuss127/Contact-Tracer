@@ -146,6 +146,7 @@ namespace ContactTracing
             {
                 MessageBox.Show("Please check the fields you have filled out. Each field must have more than 5 characters so you can submit your data.");
             }
+
             //Checks if any of the fields have no characters, if true, does not record information and instead shows message box
             else if (inputName.Text.Length == 0 || inputAge.Text.Length == 0 || inputAddress.Text.Length == 0 || inputNumber.Text.Length == 0 || inputNationality.Text.Length == 0 || inputEmail.Text.Length == 0)
             {

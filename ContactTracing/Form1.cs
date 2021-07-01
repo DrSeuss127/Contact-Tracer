@@ -222,6 +222,7 @@ namespace ContactTracing
             //When button is clicked, shows the second form
             newForm.Show();
 
+            //Disables the button after it has been clicked, prevents second click of the button & creation of new Form2 object
             if (viewDataBtn.Enabled == true)
             {
                 viewDataBtn.Enabled = false;

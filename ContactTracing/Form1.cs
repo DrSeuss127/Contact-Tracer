@@ -27,26 +27,80 @@ namespace ContactTracing
         {
             name = inputName.Text;                                                  //Stores the name of the person taken from the text box to the variable name
 
+            //Displays a warning that the field is required, if not enough characters are present in string.
+            if (inputName.Text.Length <= 5)
+            {
+                nameRequired.Visible = true;
+            }
+
+            else if (inputName.Text.Length > 5)
+            {
+                nameRequired.Visible = false;
+            }
         }
 
         private void inputAge_TextChanged(object sender, EventArgs e)
         {
             age = inputAge.Text;                                                   //Stores the age of the person taken from the text box to the variable age
+
+            //Displays a warning that the field is required, if not enough characters are present in string.
+            if (inputAge.Text.Length <= 0)
+            {
+                ageRequired.Visible = true;
+            }
+
+            else if (inputAge.Text.Length > 0)
+            {
+                ageRequired.Visible = false;
+            }
         }
 
         private void inputAddress_TextChanged(object sender, EventArgs e)
         {
             address = inputAddress.Text;                                          //Stores the address of the person taken from the text box to the variable address
+
+            //Displays a warning that the field is required, if not enough characters are present in string.
+            if (inputAddress.Text.Length <= 5)
+            {
+                addressRequired.Visible = true;
+            }
+
+            else if (inputAddress.Text.Length > 5)
+            {
+                addressRequired.Visible = false;
+            }
         }
 
         private void inputNumber_TextChanged(object sender, EventArgs e)
         {
             number = inputNumber.Text;                                            //Stores the contact number of the person taken from the text box to the variable number
+
+            //Displays a warning that the field is required, if not enough characters are present in string.
+            if (inputNumber.Text.Length <= 5)
+            {
+                contactNumberRequired.Visible = true;
+            }
+
+            else if (inputNumber.Text.Length > 5)
+            {
+                contactNumberRequired.Visible = false;
+            }
         }
 
         private void inputNationality_TextChanged(object sender, EventArgs e)
         {
             nationality = inputNationality.Text;                                 //Stores the nationality of the person taken from the text box to the variable nationality
+
+            //Displays a warning that the field is required, if not enough characters are present in string.
+            if (inputNationality.Text.Length <= 5)
+            {
+                nationalityRequired.Visible = true;
+            }
+
+            else if (inputNationality.Text.Length > 5)
+            {
+                nationalityRequired.Visible = false;
+            }
         }
 
         private void inputEmail_TextChanged(object sender, EventArgs e)
@@ -54,15 +108,20 @@ namespace ContactTracing
             email = inputEmail.Text;                                            //Stores the email of the person taken from the text box to the variable email
 
             //Checks if the textbox has characters present
-            if (inputEmail.Text.Length > 0)
+            if (inputEmail.Text.Length > 5)
             {
                 //Enables both the submit and view data buttons
                 submitBtn.Enabled = true;
                 viewDataBtn.Enabled = true;
+                emailRequired.Visible = false;
             }
-            else
+
+            //Displays a warning that the field is required, if not enough characters are present in string.
+            else if (inputEmail.Text.Length <= 5)
             {
                 submitBtn.Enabled = false;
+                viewDataBtn.Enabled = false;
+                emailRequired.Visible = true;
             }
         }
 
@@ -82,11 +141,17 @@ namespace ContactTracing
 
             inputFile.Close();
 
+            //Checks if any of the fields have less than desirable characters. If true, shows a messagebox to check all fields and fill them out with more characters (to prevent entering a nickname/anonymous name)
+            if (inputName.Text.Length <= 5 || inputAge.Text.Length == 0 || inputAddress.Text.Length <= 5 || inputNumber.Text.Length <= 3 || inputNationality.Text.Length <= 5 || inputEmail.Text.Length <= 5)
+            {
+                MessageBox.Show("Please check the fields you have filled out. Each field must have more than 5 characters so you can submit your data.");
+            }
             //Checks if any of the fields have no characters, if true, does not record information and instead shows message box
-            if (inputName.Text.Length == 0 || inputAge.Text.Length == 0 || inputAddress.Text.Length == 0 || inputNumber.Text.Length == 0 || inputNationality.Text.Length == 0 || inputEmail.Text.Length == 0)
+            else if (inputName.Text.Length == 0 || inputAge.Text.Length == 0 || inputAddress.Text.Length == 0 || inputNumber.Text.Length == 0 || inputNationality.Text.Length == 0 || inputEmail.Text.Length == 0)
             {
                 MessageBox.Show("Please fill out all the fields.");
             }
+
             else
             {
                 //Checks if the text file contains the date today
@@ -111,6 +176,7 @@ namespace ContactTracing
                     outputFile.WriteLine("");
                     outputFile.Close();
                 }
+
                 else
                 {
                     //If false, appends date on top of entry, will act as automatic date filter for people
@@ -156,7 +222,10 @@ namespace ContactTracing
             //When button is clicked, shows the second form
             newForm.Show();
 
-            viewDataBtn.Enabled = !viewDataBtn.Enabled;
+            if (viewDataBtn.Enabled == true)
+            {
+                viewDataBtn.Enabled = false;
+            }
         }
     }
 }

@@ -46,6 +46,12 @@ namespace ContactTracing
             this.gmailLbl = new System.Windows.Forms.Label();
             this.submitBtn = new System.Windows.Forms.Button();
             this.viewDataBtn = new System.Windows.Forms.Button();
+            this.ageRequired = new System.Windows.Forms.TextBox();
+            this.nameRequired = new System.Windows.Forms.TextBox();
+            this.addressRequired = new System.Windows.Forms.TextBox();
+            this.contactNumberRequired = new System.Windows.Forms.TextBox();
+            this.nationalityRequired = new System.Windows.Forms.TextBox();
+            this.emailRequired = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // appTitle
@@ -137,7 +143,7 @@ namespace ContactTracing
             // 
             this.contactNoLabel.AutoSize = true;
             this.contactNoLabel.Font = new System.Drawing.Font("ISOCPEUR", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.contactNoLabel.Location = new System.Drawing.Point(56, 252);
+            this.contactNoLabel.Location = new System.Drawing.Point(56, 257);
             this.contactNoLabel.Name = "contactNoLabel";
             this.contactNoLabel.Size = new System.Drawing.Size(184, 34);
             this.contactNoLabel.TabIndex = 0;
@@ -148,7 +154,7 @@ namespace ContactTracing
             // 
             this.inputNumber.BackColor = System.Drawing.SystemColors.Info;
             this.inputNumber.Font = new System.Drawing.Font("ISOCPEUR", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.inputNumber.Location = new System.Drawing.Point(240, 252);
+            this.inputNumber.Location = new System.Drawing.Point(240, 257);
             this.inputNumber.Name = "inputNumber";
             this.inputNumber.Size = new System.Drawing.Size(457, 37);
             this.inputNumber.TabIndex = 1;
@@ -158,7 +164,7 @@ namespace ContactTracing
             // 
             this.nationalityLabel.AutoSize = true;
             this.nationalityLabel.Font = new System.Drawing.Font("ISOCPEUR", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nationalityLabel.Location = new System.Drawing.Point(56, 301);
+            this.nationalityLabel.Location = new System.Drawing.Point(56, 309);
             this.nationalityLabel.Name = "nationalityLabel";
             this.nationalityLabel.Size = new System.Drawing.Size(131, 34);
             this.nationalityLabel.TabIndex = 0;
@@ -169,7 +175,7 @@ namespace ContactTracing
             // 
             this.inputNationality.BackColor = System.Drawing.SystemColors.Info;
             this.inputNationality.Font = new System.Drawing.Font("ISOCPEUR", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.inputNationality.Location = new System.Drawing.Point(183, 301);
+            this.inputNationality.Location = new System.Drawing.Point(183, 309);
             this.inputNationality.Name = "inputNationality";
             this.inputNationality.Size = new System.Drawing.Size(514, 37);
             this.inputNationality.TabIndex = 1;
@@ -179,7 +185,7 @@ namespace ContactTracing
             // 
             this.emailLabel.AutoSize = true;
             this.emailLabel.Font = new System.Drawing.Font("ISOCPEUR", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.emailLabel.Location = new System.Drawing.Point(56, 349);
+            this.emailLabel.Location = new System.Drawing.Point(56, 366);
             this.emailLabel.Name = "emailLabel";
             this.emailLabel.Size = new System.Drawing.Size(72, 34);
             this.emailLabel.TabIndex = 0;
@@ -190,7 +196,7 @@ namespace ContactTracing
             // 
             this.inputEmail.BackColor = System.Drawing.SystemColors.Info;
             this.inputEmail.Font = new System.Drawing.Font("ISOCPEUR", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.inputEmail.Location = new System.Drawing.Point(128, 349);
+            this.inputEmail.Location = new System.Drawing.Point(128, 366);
             this.inputEmail.Name = "inputEmail";
             this.inputEmail.Size = new System.Drawing.Size(569, 37);
             this.inputEmail.TabIndex = 1;
@@ -200,7 +206,7 @@ namespace ContactTracing
             // 
             this.gmailLbl.AutoSize = true;
             this.gmailLbl.Font = new System.Drawing.Font("ISOCPEUR", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.gmailLbl.Location = new System.Drawing.Point(309, 389);
+            this.gmailLbl.Location = new System.Drawing.Point(309, 406);
             this.gmailLbl.Name = "gmailLbl";
             this.gmailLbl.Size = new System.Drawing.Size(161, 27);
             this.gmailLbl.TabIndex = 0;
@@ -213,7 +219,7 @@ namespace ContactTracing
             this.submitBtn.FlatAppearance.BorderSize = 0;
             this.submitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.submitBtn.Font = new System.Drawing.Font("ISOCPEUR", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.submitBtn.Location = new System.Drawing.Point(343, 438);
+            this.submitBtn.Location = new System.Drawing.Point(341, 452);
             this.submitBtn.Name = "submitBtn";
             this.submitBtn.Size = new System.Drawing.Size(75, 37);
             this.submitBtn.TabIndex = 2;
@@ -227,7 +233,7 @@ namespace ContactTracing
             this.viewDataBtn.FlatAppearance.BorderSize = 0;
             this.viewDataBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.viewDataBtn.Font = new System.Drawing.Font("ISOCPEUR", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.viewDataBtn.Location = new System.Drawing.Point(670, 438);
+            this.viewDataBtn.Location = new System.Drawing.Point(670, 452);
             this.viewDataBtn.Name = "viewDataBtn";
             this.viewDataBtn.Size = new System.Drawing.Size(118, 37);
             this.viewDataBtn.TabIndex = 2;
@@ -235,12 +241,90 @@ namespace ContactTracing
             this.viewDataBtn.UseVisualStyleBackColor = false;
             this.viewDataBtn.Click += new System.EventHandler(this.viewDataBtn_Click);
             // 
+            // ageRequired
+            // 
+            this.ageRequired.BackColor = System.Drawing.Color.Orange;
+            this.ageRequired.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ageRequired.ForeColor = System.Drawing.Color.Red;
+            this.ageRequired.Location = new System.Drawing.Point(563, 162);
+            this.ageRequired.Name = "ageRequired";
+            this.ageRequired.Size = new System.Drawing.Size(62, 16);
+            this.ageRequired.TabIndex = 3;
+            this.ageRequired.Text = "(!) Required";
+            this.ageRequired.Visible = false;
+            // 
+            // nameRequired
+            // 
+            this.nameRequired.BackColor = System.Drawing.Color.Orange;
+            this.nameRequired.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.nameRequired.ForeColor = System.Drawing.Color.Red;
+            this.nameRequired.Location = new System.Drawing.Point(56, 153);
+            this.nameRequired.Name = "nameRequired";
+            this.nameRequired.Size = new System.Drawing.Size(62, 16);
+            this.nameRequired.TabIndex = 3;
+            this.nameRequired.Text = "(!) Required";
+            this.nameRequired.Visible = false;
+            // 
+            // addressRequired
+            // 
+            this.addressRequired.BackColor = System.Drawing.Color.Orange;
+            this.addressRequired.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.addressRequired.ForeColor = System.Drawing.Color.Red;
+            this.addressRequired.Location = new System.Drawing.Point(66, 238);
+            this.addressRequired.Name = "addressRequired";
+            this.addressRequired.Size = new System.Drawing.Size(62, 16);
+            this.addressRequired.TabIndex = 3;
+            this.addressRequired.Text = "(!) Required";
+            this.addressRequired.Visible = false;
+            // 
+            // contactNumberRequired
+            // 
+            this.contactNumberRequired.BackColor = System.Drawing.Color.Orange;
+            this.contactNumberRequired.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.contactNumberRequired.ForeColor = System.Drawing.Color.Red;
+            this.contactNumberRequired.Location = new System.Drawing.Point(89, 290);
+            this.contactNumberRequired.Name = "contactNumberRequired";
+            this.contactNumberRequired.Size = new System.Drawing.Size(62, 16);
+            this.contactNumberRequired.TabIndex = 3;
+            this.contactNumberRequired.Text = "(!) Required";
+            this.contactNumberRequired.Visible = false;
+            // 
+            // nationalityRequired
+            // 
+            this.nationalityRequired.BackColor = System.Drawing.Color.Orange;
+            this.nationalityRequired.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.nationalityRequired.ForeColor = System.Drawing.Color.Red;
+            this.nationalityRequired.Location = new System.Drawing.Point(78, 344);
+            this.nationalityRequired.Name = "nationalityRequired";
+            this.nationalityRequired.Size = new System.Drawing.Size(62, 16);
+            this.nationalityRequired.TabIndex = 3;
+            this.nationalityRequired.Text = "(!) Required";
+            this.nationalityRequired.Visible = false;
+            // 
+            // emailRequired
+            // 
+            this.emailRequired.BackColor = System.Drawing.Color.Orange;
+            this.emailRequired.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.emailRequired.ForeColor = System.Drawing.Color.Red;
+            this.emailRequired.Location = new System.Drawing.Point(56, 403);
+            this.emailRequired.Name = "emailRequired";
+            this.emailRequired.Size = new System.Drawing.Size(62, 16);
+            this.emailRequired.TabIndex = 3;
+            this.emailRequired.Text = "(!) Required";
+            this.emailRequired.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orange;
             this.ClientSize = new System.Drawing.Size(800, 501);
+            this.Controls.Add(this.emailRequired);
+            this.Controls.Add(this.nationalityRequired);
+            this.Controls.Add(this.contactNumberRequired);
+            this.Controls.Add(this.addressRequired);
+            this.Controls.Add(this.nameRequired);
+            this.Controls.Add(this.ageRequired);
             this.Controls.Add(this.viewDataBtn);
             this.Controls.Add(this.submitBtn);
             this.Controls.Add(this.inputAge);
@@ -286,6 +370,12 @@ namespace ContactTracing
         private System.Windows.Forms.Label gmailLbl;
         private System.Windows.Forms.Button submitBtn;
         public System.Windows.Forms.Button viewDataBtn;
+        private System.Windows.Forms.TextBox ageRequired;
+        private System.Windows.Forms.TextBox nameRequired;
+        private System.Windows.Forms.TextBox addressRequired;
+        private System.Windows.Forms.TextBox contactNumberRequired;
+        private System.Windows.Forms.TextBox nationalityRequired;
+        private System.Windows.Forms.TextBox emailRequired;
     }
 }
 
